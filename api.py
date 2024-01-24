@@ -13,3 +13,12 @@ class RestaurantResponseItem(BaseModel):
     rating: int
     lat: float
     lon: float
+
+
+class RestaurantCreate(BaseModel):
+    name: str
+    description: str
+    image: str
+    rating: int
+    lat: float
+    lon: float
